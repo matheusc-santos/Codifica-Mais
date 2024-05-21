@@ -1,55 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
 .cabecalho {
-    margin: 2%;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: dashed;
+    background-color: #13131f;
+    position: relative;
+    margin: 0 auto;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 32px;
     text-decoration: none;
+    gap: 48px;
+    margin: 2%;
 }
 
 .logo {
-    width: 15%;
+    width: 10%;
 }
 
 .cabecalho-menu-item {
+    color: white;
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
-    margin-right: 5%;
     text-decoration: none;
 }
 
-
-
-body {
-    margin: 0%
-}
-
-.sobre-da-pagina {
-    font-size: 50px;
+.titulo-da-pagina {
+    margin: auto;
+    padding: 100px;
+    width: 30px;
+    font-size: 43px;
+    align-items: center;
     text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
-.sobre-da-pagina-principal {
+.subtitulo-da-pagina {
     font-size: 30px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .imagemprincipal {
     width: 100%;
 }
 
-.titulo-da-pagina {
+.titulo-do-sobre {
     font-size: 50px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
-.subtitulo-da-pagina {
-    font-size: 30px;
+body {
+    background-color: white;
+}
+
+.sobre-da-pagina {
+    font-size: 50px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.sobre-da-pagina-principal {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
 }
 
 .sobre-da-pagina-principal {
@@ -59,20 +86,36 @@ body {
     letter-spacing: 1px;
     word-spacing: 2px;
     text-align: justify;
+
 }
 
 .conheca-os-planos {
     font-size: 50px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .planos-da-empresa {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 4%;
     margin-top: 0%;
-    display: flex;
+    gap: 32px;
     flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+}
+
+.textodocabecalhodosplanos {
+    background-color: rgb(16, 69, 139);
+    width: 100%;
+    border-radius: 13px 13px 0px 0px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
 }
 
 .planos__container_primeiro {
@@ -84,25 +127,49 @@ body {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 6px;
     margin: 10px;
+    font-family: "Poppins", sans-serif;
 }
 
 .planos_da_empresa_textos {
+    color: rgb(0, 44, 83);
+    font-weight: bold;
+    font-size: 80px;
     text-align: center;
     font-size: 30px;
     margin: 2%;
+    font-family: "Poppins", sans-serif;
 }
 
 .planos_da_empresa_textos2 {
-    margin: 2% 5%;
+    margin: 5%;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
 }
 
-.planos_da_empresa_textos3 {
+.preco_do_plano {
     display: grid;
     font-size: 30px;
     border-radius: 13px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
     background-color: rgb(16, 69, 139);
     color: rgb(255, 255, 255);
+}
+
+.textodoscontainers {
+    margin: 13px 0px;
+    font-family: Gotham Rounded, BlinkMacSystemFont;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(11, 188, 21);
+}
+
+.texto-pequeno {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    opacity: 0, 5;
+    text-align: center;
+
 }
