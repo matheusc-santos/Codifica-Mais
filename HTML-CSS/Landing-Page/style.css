@@ -1,0 +1,108 @@
+.cabecalho {
+    margin: 2%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: dashed;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 15%;
+}
+
+.cabecalho-menu-item {
+    font-size: 30px;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+
+
+body {
+    margin: 0%
+}
+
+.sobre-da-pagina {
+    font-size: 50px;
+    text-align: center;
+}
+
+.sobre-da-pagina-principal {
+    font-size: 30px;
+}
+
+.imagemprincipal {
+    width: 100%;
+}
+
+.titulo-da-pagina {
+    font-size: 50px;
+    text-align: center;
+}
+
+.subtitulo-da-pagina {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sobre-da-pagina-principal {
+    margin: 1.5%;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+.conheca-os-planos {
+    font-size: 50px;
+    text-align: center;
+}
+
+.planos-da-empresa {
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.planos__container_primeiro {
+    width: 260px;
+    min-height: 296px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 6px;
+    margin: 10px;
+}
+
+.planos_da_empresa_textos {
+    text-align: center;
+    font-size: 30px;
+    margin: 2%;
+}
+
+.planos_da_empresa_textos2 {
+    margin: 2% 5%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.planos_da_empresa_textos3 {
+    display: grid;
+    font-size: 30px;
+    border-radius: 13px;
+    text-align: center;
+    background-color: rgb(16, 69, 139);
+    color: rgb(255, 255, 255);
+}
