@@ -9,90 +9,119 @@
     font-size: inherit;
 }
 
+body {
+    background-color: #028391;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
 .cabecalho {
-    flex-direction: row;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: dashed;
-    background-color: #13131f;
+    background-color: #01204E;
     position: relative;
     margin: 0 auto;
+    width: 100%;
+}
+
+.logodaempresa {
+    position: relative;
+    width: 100%;
 }
 
 .cabecalho-menu {
     display: flex;
     text-decoration: none;
     gap: 48px;
-    margin: 2%;
+    margin: 0%;
 }
 
 .logo {
-    width: 10%;
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
 }
 
 .cabecalho-menu-item {
     color: white;
     font-family: "Poppins", sans-serif;
+    font-weight: bold;
     font-size: 30px;
     text-decoration: none;
 }
 
-.titulo-da-pagina {
-    margin: auto;
-    padding: 100px;
-    width: 30px;
-    font-size: 43px;
+.primeira_guia {
+    width: auto;
+    padding: 50px;
+    margin: 30px;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.titulo-da-pagina {
+    display: block;
+    font-size: 50px;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #F6DCAC;
 }
 
 .subtitulo-da-pagina {
     font-size: 30px;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    margin: auto;
+    color: #FEAE6F;
 }
 
 .imagemprincipal {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
+}
+
+.segunda_guia {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+    margin: 30px;
 }
 
 .titulo-do-sobre {
     font-size: 50px;
     text-align: center;
     font-family: "Poppins", sans-serif;
-}
-
-body {
-    background-color: white;
+    font-weight: bold;
+    color: #F6DCAC;
 }
 
 .sobre-da-pagina {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    padding: 30px;
+    margin: 30px;
+    font-weight: lighter;
+    color: #FEAE6F;
 }
 
-.sobre-da-pagina-principal {
-    font-size: 30px;
-    font-family: "Poppins", sans-serif;
-}
-
-.sobre-da-pagina-principal {
-    margin: 1.5%;
-    font-size: 30px;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    text-align: justify;
-
-}
 
 .conheca-os-planos {
     font-size: 50px;
     text-align: center;
     font-family: "Poppins", sans-serif;
+}
+
+.introducao_dos_planos {
+    color: #FEAE6F;
 }
 
 .planos-da-empresa {
@@ -103,6 +132,7 @@ body {
     gap: 32px;
     flex-wrap: wrap;
     font-family: "Poppins", sans-serif;
+    font-weight: bold;
 }
 
 .textodocabecalhodosplanos {
@@ -118,7 +148,31 @@ body {
     align-items: center;
 }
 
-.planos__container_primeiro {
+.primeiro_container {
+    width: 260px;
+    min-height: 296px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 6px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.segundo_container {
+    width: 260px;
+    min-height: 296px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 6px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.terceiro_container {
     width: 260px;
     min-height: 296px;
     border-radius: 20px;
