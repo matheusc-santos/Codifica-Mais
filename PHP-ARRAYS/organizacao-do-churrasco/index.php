@@ -5,6 +5,7 @@ function calcularValorIndividual($totalGasto, $numPessoas) {
 }
 
 echo "Programa para calcular quanto cada pessoa deve pagar no churrasco.\n\n";
+
 $numeroTotalPessoas = (int) readline("Digite o número total de pessoas: ");
 
 if ($numeroTotalPessoas <= 1) {
@@ -40,7 +41,9 @@ $valorIndividualFormatado = number_format($valorIndividual, 2, ',', '.');
 $valorItemMaisCaroFormatado = number_format($valorItemMaisCaro, 2, ',', '.');
 
 echo "O custo total do churrasco é: R$ " . number_format($totalGastoItens, 2, ',', '.') . "\n";
+
 echo "Cada pessoa deve contribuir com: R$ $valorIndividualFormatado\n";
+
 echo "O item mais caro do churrasco foi $itemMaisCaro, que custou R$ $valorItemMaisCaroFormatado\n";
 
 ?>
