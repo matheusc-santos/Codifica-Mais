@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto-Cartao</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3929e16ef5.js" crossorigin="anonymous"></script>
+    <script src="{% static 'network/functions.js' %}"></script>
+</head>
+<body>
+    <div class="produto-cartao">
+        <div class="imagem-do-produto">
+            <img src="images/product-image.webp" alt="garotacomjaqueta">
+        </div>
+        <div class="especificacoes">
+            <div class="nome-do-produto">
+                    <span>Jaqueta Utilitaria Feminina</span>
+                    <span>R$ 100,00</span>
+            </div>
+            <div class="tamanhos">
+                <button class="botao-tamanho">P</button>
+                <button class="botao-tamanho">M</button>
+                <button class="botao-tamanho">G</button>
+                <button class="botao-tamanho">GG</button>
+                <button class="botao-tamanho">G1</button>
+            </div>
+            <div class="botoes-de-acao">
+                <div>
+                    <button class="botao-de-comprar">Comprar</button>
+                    <button class="botao-de-carrinho">Adicionar ao carrinho</button>
+                </div>
+                <div class="botao-do-coracao">
+                    <i id="coracao" class="far fa-heart"></i>
+                </div>
+            </div>
+            <div class="observacao">
+                <div>Frete grátis em Aracruz</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.botao-tamanho').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.botao-tamanho').forEach(btn => {
+                    btn.classList.remove('ativo');
+                });
+                button.classList.add('ativo');
+            });
+        });
+    </script>
+</body>
+</html>
